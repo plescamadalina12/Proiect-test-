@@ -1,0 +1,43 @@
+input[type="email"] {
+    padding: 5px 10px; 
+    border-radius: 12px; 
+    background-color: #F5F5F5;
+    transition: padding 0.3s ease; 
+  }
+  
+  input[type="email"]:focus {
+    padding: 10px 15px; 
+  }
+
+  input[type="password"] {
+    padding: 5px 10px; 
+    border-radius: 12px; 
+    background-color: #F5F5F5;
+    transition: padding 0.3s ease; 
+  }
+  
+  input[type="password"]:focus {
+    padding: 10px 15px; 
+  }
+
+  input[type="birthdate"] {
+    padding: 5px 10px; 
+    border-radius: 12px; 
+    background-color: #F5F5F5;
+    transition: padding 0.3s ease; 
+  }
+  
+  input[type="birthdate"]:focus {
+    padding: 10px 15px; 
+  }
+
+  input[type="checkbox"] {
+    padding: 5px 10px; 
+    border-radius: 12px; 
+    background-color: #F5F5F5;
+    transition: padding 0.3s ease; 
+  }
+  
+  input[type="checkbox"]:focus {
+    padding: 10px 15px; 
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+       
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+       <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" minlength="3" required><br>
+
+        
+        <label for="birthdate">Birthdate:</label><br>
+        <input type="date" id="birthdate" name="birthdate" required><br>
+
+        <input type="checkbox" id="agree" name="agree" required><br>
+        <label for="agree">Am citit și sunt de acord cu termenii și condițiile de utilizare.</label><br>
+<br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <h1>Fetch Data</h1>
+    <div id="cards-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
